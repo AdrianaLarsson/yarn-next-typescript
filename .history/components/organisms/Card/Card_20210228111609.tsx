@@ -1,0 +1,16 @@
+//Components
+import Card from 'react-bootstrap/Card';
+//Packages
+import styled from 'styled-components/'
+
+const StyledCard = styled(Card)`
+display: flex;
+height: 21em;
+width: 110%;
+margin-top: 10px;
+background-color: rgba(0,0,0,0.0);
+box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 1.4);
+border-radius: 4px;
+
+`;
+export default StyledCard;
